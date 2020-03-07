@@ -1,0 +1,127 @@
+.label {
+  color: var(--color-secondary);
+  font-family: var(--font-secondary);
+}
+
+.search-field:not([type="checkbox"]),
+.search-field:not([type="radio"]) {
+  border-radius: 2em;
+  border-color: var(--color-primary);
+  padding: 1rem;
+  max-width: 25em;
+}
+
+.search-field-alt:not([type="checkbox"]),
+.search-field-alt:not([type="radio"]) {
+  border-radius: 2em;
+  border-color: var(--color-primary);
+  padding: 1rem;
+}
+
+.search-field:focus {
+  border-radius: 2em;
+}
+
+.field:not([type="checkbox"]),
+.field:not([type="radio"]) {
+  border-radius: 2em;
+  border-color: var(--color-primary);
+  padding: 0 1em;
+}
+
+.text-area:not([type="checkbox"]),
+.text-area:not([type="radio"]) {
+  border-radius: .5em;
+  border-color: var(--color-primary);
+  padding: .5em;
+}
+
+.option-field:not([type="checkbox"]),
+.option-field:not([type="radio"]) {
+  border-radius: 1em;
+  border-color: var(--color-primary);
+  padding: 0 1em;
+}
+
+[type="checkbox"] + .check::before {
+  border-color: var(--color-primary);
+  border-radius: .2em;
+}
+
+[type="radio"] + .radio::before {
+  border-color: var(--color-primary);
+}
+
+.sub-pos {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.s-sub-btn {
+  border: none;
+  background-color: var(--color-secondary);
+  border-top-left-radius: 0;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 50%;
+  color: var(--color-secondary-darker);
+  padding: .24rem;
+}
+
+.s-sub-btn:hover {
+  background-color: var(--color-secondary-dark);
+  color: var(--color-primary-dark);
+}
+
+.flag-optional {
+  color: #999;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before,
+.is-validated:invalid,
+.is-validated[type="checkbox"]:invalid + label::before,
+.is-validated select:invalid,
+.is-validated select[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.error-label {
+  color: #c33;
+}
+
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: #c33;
+  border-radius: .5em;
+}
+
+.error-message-highlighted {
+  background-color: #fee;
+  color: #fff;
+  border-radius: 1em;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated > fieldset > .error-message,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message,
+.is-validated:invalid + .error-message,
+.is-validated:invalid + label + .error-message,
+.is-validated select:invalid + .error-message,
+.is-validated select:invalid + label + .error-message {
+  display: block;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .search-main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 28em;
+    width: 100%;
+  }
+
+}

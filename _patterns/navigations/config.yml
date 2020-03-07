@@ -1,0 +1,26 @@
+title: "Navigations"
+description: |
+  These are common navigation found on the website that are not part of the header or footer.
+patterns:
+  main-nav:
+    title: "Main Navigation"
+    description: |
+      This is the main navigation used in the header for the website and no where else.
+    padding: 1em
+  page-nav:
+    title: "Page Navigation"
+    description: |
+      The page navigator allows the user to cycle through more then one page of products. They can jump using the numbers or scroll using left or right arrows. There should never be more than nine numbers visible at any time.
+  social-nav:
+    title: "Social Navigation"
+    description: |
+      The social navigation is used for quick access to Nerdy Noods Social Medias. It should only be used in the footer.
+  tool-bar:
+    title: "Tool Bar"
+    description: |
+      This tool bar is located on every page of the website along with the header. It gives the user quick access to login in, sign up or access their cart. It should always be found at the top of page unless there is a promotion banner, then it is found directly underneath it.
+    padding: 1em
+  page-jump:
+    title: "To Top button"
+    description: |
+      This button is included in the main navigation already and will appear across all pages.

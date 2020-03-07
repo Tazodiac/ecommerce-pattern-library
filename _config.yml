@@ -1,0 +1,19 @@
+permalink: pretty
+theme: jekyll_patternbot
+
+patternbot:
+  title: "Nerdy Noods"
+  description: |
+    Snakes, the reptile frontier. These are the journeys of the Nerdy Noods project. Its continuing goal: to share the joys of snake ownership, to eliminate false snake stigmas, and to boldly go down the path of snake husbandry and breeding.
+  font_url: "https://use.typekit.net/koj6sjq.css"
+  colors:
+
+  rationales:
+    typefaces.primary: |
+      Nunito was selected as the primary font because it is easy to read across multiple users that fits well on multiple web browsers and goes well with the secondary typeface which is part of the badge.
+    typefaces.secondary: |
+      Cubano was selected as the secondary font because it is part of the brands logo design. It gives nice bold letters with rounded edges for a softness.
+    colors.primary: |
+      The primary colours are oranges because it is the most common colour on snakes. If not a direct bright orange then different hues and saturations of oranges. One of the most sought after morphs in the snake communities tend to be bright oranges.
+    colors.secondary: |
+      The secondary colours are blues because it is a complimentary colour to orange. It can also add a more inviting and calming tone to the bright vibrances of orange.

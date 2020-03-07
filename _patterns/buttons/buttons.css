@@ -1,0 +1,115 @@
+.btn {
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+.btn:hover {
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  background-color: var(--color-secondary-light);
+  color: var(--color-primary-light);
+  border-color: var(--color-secondary-light);
+}
+
+.btn-ghost {
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  background-color: transparent;
+  color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+}
+
+.btn-ghost:hover {
+  -webkit-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background-color: transparent;
+}
+
+.btn-light {
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+  color: var(--color-secondary);
+}
+
+.btn-light:hover {
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  color: var(--color-secondary-light);
+  border-color: var(--color-primary-light);
+  background-color: var(--color-primary-light);
+}
+
+.btn-attention {
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  border-radius: 40px;
+  color: #fff;
+  border-color: var(--color-secondary);
+  background-color: red;
+}
+
+.btn-attention:hover {
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  color: var(--color-primary-light);
+  border-color: var(--color-secondary-light);
+  background-color: var(--color-secondary);
+}
+
+.btn-submit {
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  border-radius: 2em;
+  border-color: var(--color-primary);
+  background-color: var(--color-secondary);
+}
+
+.btn-submit:hover {
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  background-color: var(--color-secondary);
+  color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+}
+
+.search-btn {
+  border-radius: 1.5em;
+  padding: 1em;
+}
+
+.ic-search-btn {
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  border-radius: 50%;
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-light);
+  border-color: var(--color-secondary-light);
+}
+
+.ic-search-btn:hover {
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}

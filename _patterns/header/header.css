@@ -1,0 +1,8 @@
+.wordmark a, .main-nav a {
+  text-decoration: none;
+}
+
+span, .masthead {
+  font-family: var(--font-secondary);
+  background-color: var(--color-primary);
+}

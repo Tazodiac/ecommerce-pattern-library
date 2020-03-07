@@ -1,0 +1,33 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where an obvious call to action is required. Try not to over use buttons.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Default to using the basic button, it should always be used in front of the light backgrounds.
+    padding: 1em
+  ghost:
+    title: "Ghost"
+    description: |
+      The ghost button is specifically for banners, where it will be placed in front of busy images.
+  light:
+    title: "Light"
+    description: |
+      The light button should only be used against solid dark colours.
+    padding: 1em
+  attention:
+    title: "Attention"
+    description: |
+      The attention button should only be used to get users attention.
+  submit:
+    title: "Submit Button"
+    description: |
+      The submit button is a special case scenario for pushing forward forms.
+    padding: 1em
+  icon-search:
+    title: "Icon Search Button"
+    description: |
+      This icon is only used for the search bar.
+    padding: 1em

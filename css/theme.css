@@ -1,0 +1,57 @@
+:root {
+  --color-primary: #FF9966;
+  --color-primary-light: #FFCC99;
+  --color-secondary: #003366;
+  --color-secondary-light: #3399FF;
+
+  --font-primary: "nunito-sans", sans-serif;
+  --font-secondary: "cubano", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+  font-weight: 300;
+}
+
+h1, h2 {
+  font-family: var(--font-secondary);
+  font-weight: normal;
+  color: var(--color-secondary);
+}
+
+h3, h4, h5 {
+  font-family: var(--font-secondary);
+  font-weight: normal;
+}
+
+a {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  color: var(--color-secondary);
+}
+
+a:hover {
+  color: var(--color-secondary-light);
+}
+
+cite {
+  font-weight: italic;
+}
+
+nav ul {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  color: var(--color-secondary);
+}
+
+nav ul: hover {
+  color: var(--color-secondary-light);
+}
+
+.btn {
+  text-align: center;
+}
+
+mark {
+  background-color: var(--color-primary-light);
+}

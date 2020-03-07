@@ -1,0 +1,68 @@
+title: "Forms"
+description: |
+  Forms are to be used in the checkout.
+patterns:
+  basic-field-req:
+    title: "Required Basic Field"
+    description: |
+      This is a standard required input field for short lines of text. It should only be found in the checkout, sign-up or log-in page. It can be used as a name field or an address field.
+  basic-field:
+    title: "Basic Field"
+    description: |
+      This is a standard input field meant for short lines of text. It can be used where necessary. A good example for this is a second address line that would not be required.
+  telephone:
+    title: "Phone Number Field"
+    description: |
+      A standard phone number field. Should only be found on the checkout page.
+  email:
+    title: "Email Field"
+    description: |
+      This is a standard email field. This can be found on the checkout and sign-up page.
+  date-picker:
+    title: "Date Picker"
+    description: |
+      This date picker field is for choosing specific dates. It should only be found on the checkout page as an expirey date for credit cards.
+  password:
+    title: "Password Field"
+    description: |
+      This is a password field. This is to be used in the sign-up form or log-in page.
+  province:
+    title: "Province Field"
+    description: |
+      This is a select field geared towards provinces. This can be found on the checkout page.
+  select:
+    title: "Selection Field"
+    description: |
+      A selction field with multiple items to choose from. Should be used on a products page and checkout page.
+  text-field:
+    title: "Message Field"
+    description: |
+      This a text field area that can be used for multiple lines of text. Should be used primarly for comment fields or text areas.
+  checkbox:
+    title: "Checkboxes"
+    description: |
+      This is a standard checkbox. This should be used in the checkout page or in with the sign-up form to recieve emails, offers and other non-contract agreements.
+  checkbox-required:
+    title: "Checkbox Required"
+    description: |
+      This checkbox is to be used when it is required to be checked in order to continue. A common place for this is during the checkout process.
+  quantity:
+    title: "Quantity Field"
+    description: |
+      This quantity field used to determine how many of an item the customer may want. It can be found on the products page before adding to cart or even on the checkout page if the customer decides they want less or more.
+  radio:
+    title: "Radio Buttons"
+    description: |
+      Radio buttons are used to determine yes or no questions or any question that invloves multiple answers but only one option to pick.
+  fieldset:
+    title: "Fieldset with Warnings"
+    description: |
+      This is a standard fieldset with warning messages included, try clicking submit without entering any information.
+  search:
+    title: "Search Field"
+    description: |
+      This search field is to be used only on the main page of the website, inside the hero banner. It can not be used anywhere else.
+  alt-search:
+    title: "Alternate Search Field"
+    description: |
+      This search field is to be used on everypage that is necessary expect that of the homepage—use the Search Field for that. It should always be placed in the top bar for easy access and continuity.
