@@ -6,7 +6,11 @@ patternbot:
   description: |
     Snakes, the reptile frontier. These are the journeys of the Nerdy Noods project. Its continuing goal: to share the joys of snake ownership, to eliminate false snake stigmas, and to boldly go down the path of snake husbandry and breeding.
   font_url: "https://use.typekit.net/koj6sjq.css"
-  colors:
+  layouts:
+    default: |
+      This is the default layout that should be used for almost every page. It has the header and footer.
+    product: |
+      This layout is for the products only.
 
   rationales:
     typefaces.primary: |
@@ -17,3 +21,13 @@ patternbot:
       The primary colours are oranges because it is the most common colour on snakes. If not a direct bright orange then different hues and saturations of oranges. One of the most sought after morphs in the snake communities tend to be bright oranges.
     colors.secondary: |
       The secondary colours are blues because it is a complimentary colour to orange. It can also add a more inviting and calming tone to the bright vibrances of orange.
+
+collections:
+  products:
+    output: true
+
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product

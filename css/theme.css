@@ -28,6 +28,7 @@ a {
   font-family: var(--font-primary);
   font-weight: normal;
   color: var(--color-secondary);
+  text-decoration: none;
 }
 
 a:hover {

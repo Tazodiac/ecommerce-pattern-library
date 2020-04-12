@@ -18,14 +18,13 @@
   text-decoration: underline;
 }
 
-.active,
-.hover:hover {
+.active, .hover:hover {
   color: var(--color-secondary-light);
   font-family: var(--font-secondary);
 }
 
 .social-nav li a {
-  color: var(--color-secondary);
+  color: var(--color-primary-light);
 }
 
 .social-nav li a:hover {
@@ -36,13 +35,11 @@
   text-decoration: underline;
 }
 
-.social-nav a,
-.side-nav a {
+.social-nav a, .side-nav a {
   text-decoration: none;
 }
 
-.side-navigation,
-.side-label {
+.side-navigation, .side-label {
   color: var(--color-primary);
   width: 100%;
   max-width: 15em;
@@ -114,7 +111,7 @@
 }
 
 .tool-bar li:last-child svg {
-  color: var(--color-primary-light);
+  color: var(--color-secondary);
 }
 
 .tool-bar li:hover {
@@ -139,22 +136,6 @@
   background-color: var(--color-secondary);
   color: var(--color-secondary-light);
   border-color: transparent;
-}
-
-.main-check:checked ~ .main-nav {
-  display: block;
-}
-
-.print-nav,
-.cloth-nav,
-.elec-nav {
-  display: none;
-}
-
-.print-check:checked ~ .print-nav,
-.cloth-check:checked ~ .cloth-nav,
-.elec-check:checked ~ .elec-nav {
-  display: block;
 }
 
 .sec-nav {

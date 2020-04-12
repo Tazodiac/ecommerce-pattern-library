@@ -20,7 +20,7 @@ patterns:
   attention:
     title: "Attention"
     description: |
-      The attention button should only be used to get users attention.
+      The attention button should only be used to get users attention or add to cart.
   submit:
     title: "Submit Button"
     description: |
@@ -30,4 +30,9 @@ patterns:
     title: "Icon Search Button"
     description: |
       This icon is only used for the search bar.
+    padding: 1em
+  viewproduct:
+    title: "Product Button"
+    description: |
+      This button is just for product cards.
     padding: 1em

@@ -60,7 +60,7 @@
   border-radius: 40px;
   color: #fff;
   border-color: var(--color-secondary);
-  background-color: red;
+  background-color: var(--color-secondary);
 }
 
 .btn-attention:hover {
@@ -112,4 +112,15 @@
   background-color: var(--color-secondary);
   color: var(--color-primary);
   border-color: var(--color-primary);
+}
+
+.productbtn {
+  background: transparent;
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.productbtn:hover {
+  background: var(--color-secondary);
+  color: #ffffff;
 }

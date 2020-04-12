@@ -1,0 +1,15 @@
+title: "Product Display"
+description: |
+  These product display patterns are to be used on the product details page only. It contains the different types of product details used for different items and must all be used in conjuction with the photo array.
+patterns:
+  product-details:
+    title: "Product Details"
+    description: |
+      This contains all the neccessary information for the details on a product.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: product
+    width: 400

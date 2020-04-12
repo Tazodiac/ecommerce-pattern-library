@@ -1,0 +1,27 @@
+<div class="poster-details details">
+  <div class="poster-info gutter-1-4">
+    <h1 class="giga push-0 ">{{include.data.name}}</h1>
+    <h3 class="normal push">${{include.data.price}}<span class="kilo bold text-upper"> can</span></h3>
+  </div>
+  <div>
+    <div class="push-2 text-left">
+      <div class="push-1-2">
+        {% pattern forms/select options=include.data.options label=include.data.label %}
+      </div>
+      <div class="push-1-2 w-1-4">
+        {% pattern forms/quantity %}
+      </div>
+    </div>
+    <div class="push-2">
+      {% pattern buttons/attention text="Add To Cart" url="#" aria_label="This button will add the product to your cart" %}
+    </div>
+  </div>
+  <div class="delivery icon-link milli text-center">
+    <i class="icon i-1">
+      <svg><use xlink:href="/images/icons.svg#leaf"></use></svg>
+    </i>
+    <span class="icon-label">Delivery</span>
+    <p class="push-0">Express by April 26th</p>
+    <p class="push-0">Standard between April 28th - May 2nd</p>
+  </div>
+</div>
