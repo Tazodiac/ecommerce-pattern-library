@@ -69,5 +69,13 @@ p {
 }
 
 .step .number {
-  color: var(--color-secondary);
+  color: var(--color-secondary-light);
+}
+
+.number span {
+  background-color: var(--color-secondary);
+}
+
+.formstep {
+  background-color: var(--color-primary-light);
 }

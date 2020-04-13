@@ -2,9 +2,21 @@
 layout: default
 ---
 
-<div>
-  <img src="{{page.image}}" alt="" width="600">
-<div>
+<main id="main" role="main" tabindex="0">
+  <section class="grid wrapper push">
+    <div>
+      <img src="{{page.image}}" alt="" width="600">
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2 unit-content-distribute push">
+      <h1>{{page.name}}</h1>
+      <p>{{page.description}}</p>
 
-<h1>{{page.name}}</h1>
-<p>{{page.description}}</p>
+      <div class="padding: 10 10 10 10">
+      {% pattern buttons/attention %}
+      </div>
+    </div>
+  </section>
+</main>
+
+<section>
+</section>

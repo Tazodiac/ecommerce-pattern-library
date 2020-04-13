@@ -3,7 +3,7 @@ name: "Nerdy Noods Sticker"
 description: |
   Water-resistant sticker to sport your support of Nerdy Noods!
 image: "/images/products/product-nn-stickerWB.png"
-price: 2
+price: $3 CAD
 colors:
   - "Blue"
   - "Orange"

@@ -62,6 +62,10 @@
   background-color: var(--color-primary-light);
 }
 
+.p-color {
+  color: var(--color-secondary-light);
+}
+
 @media only screen and (min-width: 60em) {
 
   .product .price > p {
